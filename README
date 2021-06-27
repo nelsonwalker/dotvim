@@ -1,0 +1,7 @@
+Repository for synchronizing VIM configurations across multiple machines.
+
+Create symlinks:
+	
+	mkdir ~/.vim
+	mv ~/.vimrc ~/.vim/vimrc
+	ln -s ~/.vim/vimrc ~/.vimrc
